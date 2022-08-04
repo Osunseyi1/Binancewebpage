@@ -1044,6 +1044,78 @@ ul li:hover{
 
 
 
+html,body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1170px;
+    /* background-color: red; */
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ol{
+    list-style: none;
+}
+
+.footerlist1{
+    display: block !important;
+}
+
+a{
+    color: black !important;
+}
+
+.footer{
+    /* background-color: #24262b; */
+    padding: 70px 0;
+}
+
+.footer-col{
+    width: 15%;
+    padding: 0 5px;
+}
+
+.footer-col h4{
+    font-size: 20px;
+    color: black;
+    text-transform: capitalize;
+    margin-left: 30px;
+}
+
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover{
+    color: black;
+}
+
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: grey;
+    transition: all 0.3s ease;
+}
 
 
 
